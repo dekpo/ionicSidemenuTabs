@@ -9,4 +9,10 @@ export class Tab1Page {
 
   constructor() {}
 
+  myVar = "Coucou les zamis !";
+
+  myAlert(){
+    alert( this.myVar );
+  }
+
 }
